@@ -9,11 +9,7 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author ZeFengMao
- * @version 1.0
- * @email zfmaoc@isoftstone.com
- */
+
 public class CumtomTokenEnhancer implements TokenEnhancer {
     @Override
     public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
